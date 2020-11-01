@@ -24,5 +24,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'preservim/nerdcommenter'
   " monochrome - A dark Vim color scheme for your focused hacking sessions
   Plug 'fxn/vim-monochrome'
+  " Airline
+  Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
