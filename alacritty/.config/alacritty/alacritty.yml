@@ -175,8 +175,10 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#000000'
-    foreground: '#ffffff'
+    #background: '#000000'
+    #foreground: '#ffffff'
+    background: '#ffffff'
+    foreground: '#000000'
 
     # Bright and dim foreground colors
     #
