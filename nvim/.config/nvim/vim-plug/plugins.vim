@@ -27,5 +27,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Airline
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
-
+  " A personal wiki for Vim
+  Plug 'vimwiki/vimwiki'
 call plug#end()
