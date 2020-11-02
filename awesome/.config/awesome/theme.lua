@@ -12,7 +12,7 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "agave NF 14"
+theme.font          = "agave Nerd Font Mono 14"
 
 theme.bg_normal     = "#000000"
 theme.bg_focus      = "#ffffff"

@@ -22,19 +22,19 @@ let colors_name = "github"
 " {{{ General colors
 hi Normal   ctermfg=0   ctermbg=255  guifg=#000000   guibg=#FFFFFF
 hi Cursor   ctermfg=239   ctermbg=15  guifg=#F8F8FF   guibg=#FFFFFF
-hi Visual   ctermfg=15   ctermbg=61  guifg=#FFFFFF   guibg=#FFFFFF
+hi Visual   ctermfg=15   ctermbg=61  guifg=#000000   guibg=#FFFFFF
 hi VisualNOS   ctermfg=15   ctermbg=24  guifg=#FFFFFF   guibg=#FFFFFF
 hi Search   ctermfg=236   ctermbg=228  guifg=#000000   guibg=#FFFFFF  cterm=bold gui=bold
 hi Folded   ctermfg=8 ctermbg=15 guifg=#808080 guibg=#FFFFFF gui=bold cterm=bold
-hi Title    ctermfg=167 guifg=#ef5939
+hi Title    ctermfg=167 guifg=#000000
 hi StatusLine ctermfg=238 ctermbg=250 guifg=#404040 guibg=#FFFFFF gui=bold cterm=bold
 hi StatusLineNC ctermfg=238 ctermbg=252 guifg=#404040 guibg=#FFFFFF gui=italic cterm=italic
 hi VertSplit ctermfg=250 ctermbg=250 guifg=#bbbbbb guibg=#FFFFFF gui=none cterm=none
-hi LineNr   ctermfg=246 ctermbg=15 guifg=#959595 guibg=#FFFFFF gui=bold cterm=bold
+hi LineNr   ctermfg=246 ctermbg=15 guifg=#000000 guibg=#FFFFFF gui=bold cterm=bold
 hi SpecialKey ctermfg=6 guifg=#177F80 gui=italic cterm=italic
 hi WarningMsg ctermfg=167 guifg=#ef5939
 hi ErrorMsg ctermbg=15 ctermfg=196 guibg=#f8f8ff guifg=#ff1100 gui=undercurl cterm=undercurl
-hi ColorColumn ctermbg=254 guibg=#e4e4e4
+hi ColorColumn ctermbg=254 guibg=#FFFFFF
 " }}}
 
 " {{{ Vim => 7.0 specific colors
@@ -118,10 +118,10 @@ endif
 hi airlineN1 ctermfg=188 ctermbg=0 guifg=#dddddd guibg=#000000 gui=none cterm=none
 hi airlineN2 ctermfg=188 ctermbg=238 guifg=#dddddd guibg=#404040 gui=none cterm=none
 hi airlineN3 ctermfg=0 ctermbg=188 guifg=#000000 guibg=#dddddd gui=none cterm=none
-hi airlineInsert1 ctermfg=188 ctermbg=26 guifg=#dddddd guibg=#005cc5 gui=none cterm=none
-hi airlineInsert2 ctermfg=188 ctermbg=17 guifg=#dddddd guibg=#032f62 gui=none cterm=none
-hi airlineVisual1 ctermfg=188 ctermbg=91 guifg=#dddddd guibg=#6f42c1 gui=none cterm=none
-hi airlineVisual2 ctermfg=188 ctermbg=237 guifg=#dddddd guibg=#45267d gui=none cterm=none
-hi airlineReplace1 ctermfg=188 ctermbg=167 guifg=#dddddd guibg=#d73a49 gui=none cterm=none
-hi airlineReplace2 ctermfg=188 ctermbg=124 guifg=#dddddd guibg=#b31d28 gui=none cterm=none
+hi airlineInsert1 ctermfg=188 ctermbg=26 guifg=#dddddd guibg=#000000 gui=none cterm=none
+hi airlineInsert2 ctermfg=188 ctermbg=17 guifg=#dddddd guibg=#000000 gui=none cterm=none
+hi airlineVisual1 ctermfg=188 ctermbg=91 guifg=#dddddd guibg=#000000 gui=none cterm=none
+hi airlineVisual2 ctermfg=188 ctermbg=237 guifg=#dddddd guibg=#000000 gui=none cterm=none
+hi airlineReplace1 ctermfg=188 ctermbg=167 guifg=#dddddd guibg=#000000 gui=none cterm=none
+hi airlineReplace2 ctermfg=188 ctermbg=124 guifg=#dddddd guibg=#000000 gui=none cterm=none
 " }}} 

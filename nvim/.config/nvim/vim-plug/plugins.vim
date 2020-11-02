@@ -7,7 +7,6 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-
 	" Better Syntax Support
 	Plug 'sheerun/vim-polyglot'
 	" File Explorer
@@ -29,4 +28,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'vim-airline/vim-airline-themes'
   " A personal wiki for Vim
   Plug 'vimwiki/vimwiki'
+  " Stable version of coc
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
 call plug#end()
