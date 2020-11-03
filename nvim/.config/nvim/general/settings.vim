@@ -3,7 +3,7 @@ let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
 
-set termguicolors                       " True color support
+"set termguicolors                       " True color support
 
 set hidden                              " Required to keep multiple buffers open multiple buffers
 
@@ -78,4 +78,3 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 cmap w!! w !sudo tee %
 
 colorscheme wal
-
