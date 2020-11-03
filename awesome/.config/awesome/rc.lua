@@ -562,4 +562,6 @@ end)
 
 
 
-awful.spawn.with_shell("nitrogen --restore")
+-- awful.spawn.with_shell("nitrogen --restore")
+awful.spawn.with_shell("wal -R")
+

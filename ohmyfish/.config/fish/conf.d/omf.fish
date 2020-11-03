@@ -31,4 +31,4 @@ alias copy="cp -r"
 # Light mode
 # wal --theme monochrome-light -l -q 
 
-
+wal -i ~/Wallpapers/deer_minimalist.jpg

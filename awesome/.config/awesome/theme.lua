@@ -12,10 +12,10 @@ local themes_path = gfs.get_themes_dir()
 
 local theme = {}
 
-theme.font          = "agave Nerd Font Mono 14"
+theme.font          = "agave Nerd Font 14"
 
 -- colors
-theme.bg_normal     = "#282828"
+theme.bg_normal     = "#1d2021"
 theme.bg_focus      = "#3c3836"
 theme.fg_normal     = "#ebdbb2"
 theme.fg_urgent     = "#cc241d"
@@ -32,6 +32,8 @@ theme.hotkeys_border_color = theme.border_focus
 theme.hotkeys_border_width = theme.border_width
 theme.hotkeys_modifiers_fg = theme.fg_urgent
 
+theme.useless_gap         = dpi(5)
+theme.border_width        = dpi(5)
 -- There are other variable sets
 -- overriding the default one when
 -- defined, the sets are:
