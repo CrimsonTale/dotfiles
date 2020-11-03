@@ -1,1 +1,79 @@
 ...wiki...
+
+
+What is data?
+  Info in raw/unorganised form
+
+Database
+  Shared collection of logically related data and its description
+
+Why is database important?
+  Allows us to organize,store and retrieve data according to our individual needs.
+
+How was data stored in the past?
+  Flat files 
+
+Files based approach
+  (apps used file-based approach-
+  Program code
+  (data definition, file handling routines, business logic)
+  )
+
+Limitations
+  Separation and isolation of data
+    each program maintains its own set of data(not centrally located...harded to access)
+
+  Duplication of data
+    uncontrolled duplication(more $, more space, loss of data integrity as less consistent)
+
+  Data dependence
+    file structure defined in code(hard to change file structure)
+  
+  Incompatible file formats
+    different programming languages
+
+  Fixed queries/proliferation of programs
+
+
+Solution
+  Database approach via DBMS
+
+What is DBMS?
+  Software system to define,create,maintain and control access to database
+  DBMS is the gateway between application program and database
+
+Enterprise Database Systems
+
+
+File-based vs DB
+  data vs data+metadata
+  each program manage own data vs shared by many programs
+  
+The 5 components of DBMS
+  1. Machines(Hardware,Software)
+  2. Bridge(data + metadata)
+  3. Human(Procedures,People)
+
+MYSQL workbench***
+
+
+Advantages of DBMS
+  control of data reduncancy
+  data consistency
+  sharing of data
+  improved data integrity
+  improved security
+  
+Disadvantages of DBMS
+  complexity
+  size
+  cost of DBMS
+  cost of additional hardware
+  cost of conversion
+  
+Roles
+  data admin
+  database admin
+  database designer
+  develop
+  end user

@@ -30,4 +30,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'vimwiki/vimwiki'
   " Stable version of coc
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " Hyperfocus-writing in Vim
+  Plug 'junegunn/limelight.vim'
+  " A vim colorscheme for use with pywal
+  Plug 'dylanaraps/wal.vim'
 call plug#end()

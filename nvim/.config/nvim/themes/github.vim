@@ -21,9 +21,9 @@ let colors_name = "github"
 
 " {{{ General colors
 hi Normal   ctermfg=0   ctermbg=255  guifg=#000000   guibg=#FFFFFF
-hi Cursor   ctermfg=239   ctermbg=15  guifg=#F8F8FF   guibg=#FFFFFF
+hi Cursor   ctermfg=239   ctermbg=15  guifg=#000000   guibg=#FFFFFF
 hi Visual   ctermfg=15   ctermbg=61  guifg=#000000   guibg=#FFFFFF
-hi VisualNOS   ctermfg=15   ctermbg=24  guifg=#FFFFFF   guibg=#FFFFFF
+hi VisualNOS   ctermfg=15   ctermbg=24  guifg=#000000   guibg=#FFFFFF
 hi Search   ctermfg=236   ctermbg=228  guifg=#000000   guibg=#FFFFFF  cterm=bold gui=bold
 hi Folded   ctermfg=8 ctermbg=15 guifg=#808080 guibg=#FFFFFF gui=bold cterm=bold
 hi Title    ctermfg=167 guifg=#000000

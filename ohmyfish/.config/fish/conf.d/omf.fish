@@ -8,6 +8,10 @@ source $OMF_PATH/init.fish
 
 ### Aliases ###
 
+# Yay
+alias yain="yay -S"
+alias yaupg="yay -Syu"
+
 # Vim
 alias vim="nvim"
 
@@ -17,9 +21,14 @@ alias cdT="cd ~/.config/alacritty"
 alias cdV="cd ~/.config/nvim"
 alias cdA="cd ~/.config/awesome"
 
+# Common
+alias yeet="rm -rf"
+alias copy="cp -r"
 
 # Dark mode
 # wal --theme monochrome -q 
 
 # Light mode
-wal --theme monochrome-light -l -q 
+# wal --theme monochrome-light -l -q 
+
+

@@ -14,22 +14,23 @@ local theme = {}
 
 theme.font          = "agave Nerd Font Mono 14"
 
-theme.bg_normal     = "#000000"
-theme.bg_focus      = "#ffffff"
-theme.bg_urgent     = "#ffffff"
-theme.bg_minimize   = "#000000"
+-- colors
+theme.bg_normal     = "#282828"
+theme.bg_focus      = "#3c3836"
+theme.fg_normal     = "#ebdbb2"
+theme.fg_urgent     = "#cc241d"
+theme.border_normal = "#928374"
+theme.border_focus  = "#fabd2f"
+theme.bg_urgent     = theme.bg_normal
+theme.bg_minimize   = theme.bg_focus
 theme.bg_systray    = theme.bg_normal
-
-theme.fg_normal     = "#ffffff"
-theme.fg_focus      = "#000000"
-theme.fg_urgent     = "#000000"
-theme.fg_minimize   = "#000000"
-
-theme.useless_gap         = dpi(5)
-theme.border_width        = dpi(5)
-theme.border_color_normal = "#000000"
-theme.border_color_active = "#000000"
-theme.border_color_marked = "#ffffff"
+theme.hotkeys_bg    = theme.bg_normal
+theme.fg_focus      = theme.fg_normal
+theme.fg_minimize   = theme.fg_normal
+theme.hotkeys_fg    = theme.fg_normal
+theme.hotkeys_border_color = theme.border_focus
+theme.hotkeys_border_width = theme.border_width
+theme.hotkeys_modifiers_fg = theme.fg_urgent
 
 -- There are other variable sets
 -- overriding the default one when
