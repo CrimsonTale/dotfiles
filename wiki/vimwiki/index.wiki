@@ -1,5 +1,6 @@
 ...wiki...
 
+...Topic 1...
 
 What is data?
   Info in raw/unorganised form
@@ -59,15 +60,15 @@ MYSQL workbench***
 
 Advantages of DBMS
   control of data reduncancy
-  data consistency
-  sharing of data
+  improved data consistency
+  improved sharing of data
   improved data integrity
   improved security
   
 Disadvantages of DBMS
   complexity
   size
-  cost of DBMS
+  cost of DBMS (DBMS license, maintenance)
   cost of additional hardware
   cost of conversion
   
@@ -75,5 +76,145 @@ Roles
   data admin
   database admin
   database designer
-  develop
+  developer
   end user
+
+Database (program-data independent)
+
+
+...Topic 2...
+Database modelling
+
+Architecture of a DMBS
+External level == the way users perceive the data
+
+Conceptual level == provides the mapping and desired independence 
+                    between the external and internal levels
+
+Internal Level -- the way the dbms and the os perceive the data
+
+
+the 3 level-schemas are only descriptions of data
+the only data that actually exists is at the physical level
+
+
+External level
+User's view of the database.
+This level describes part of the database that is relevant to each user.
+
+
+Conceptual level
+Community view of the database.
+This level describes what data is stored in the database and the relationships among
+the data. It contains the logical structure of the entire database
+
+
+Internal level
+Physical represantation of the database.
+This level describes how the data is stored in the database. (as perceived by dbms and os)
+It includes physical implementation of the database to achieve optimal runtime performance
+and storage space utilization.
+It includes the data structures and file organizations used to store data on storage devices.
+
+
+Why the three level architecture?
+To separate user's view of the database from the way the databse is physically represented.
+
+Why separate?
+1. Each user should be able to access the same data with a customized view of data.
+2. Users should have to deal direction with physical database storage details(indexing and hashing)
+3. Internal structure of database should not be affected by changed to the physical storage
+4. DB admin should be able to change the database storage structure without affecting
+   users' view
+5. DB should change the conceptual structure of the DB without affecting all users.(eg adding
+   new fields to the table, changing the length of a field)
+   
+Basically, separate due to DATA INDEPENDENCE. (upper levels are unaffected 
+by changes to lower levels)
+
+Database schema: overall description(or structure) of DB
+DBMS is responsible for mapping between these three types of scheme.
+
+Database instance: data in the databse at any point in time
+
+Data models: integration collection of concepts for describing and manipulating data,
+relationships of data and constraints.
+
+3 broad categories
+1. object based (conceptual and external level)
+2. record based (conceptual and external level)
+3. physical (internal level)
+
+object-based data models use concepts such at entities,attributes and relationships.
+Object-oriented = extends defintion of an entity to include both state(attribures) and
+behavior(methods). The object is said to encapsule both state and behavior.
+
+
+record based data model = fixed-format records, fixed number of fields.
+1. hierrarchical data model
+2. network data model
+3. relational data model
+
+
+hierarchical (one to many)
+-- cannot merge several branches
+
+network data model (each child can have multiple parents)
+-- more flexible but hard to implement
+
+relational data model
+-- relate files by a common field (based on concept of mathematical relations)
+
+
+foreign key: links two tables together
+Simply put, a foreign key is a set of attributes in a table that refers to the primary key of another table. The foreign key links these two tables. Wikipedia
+
+
+conceptual modeling / conceptual db design
+is the process of constructing a model of the information used in an enterprise that is
+independent of implementation details
+
+
+purpose:
+1. assist in understanding of the meaning of the data
+2. to facilitate communication about the information requirements
+
+
+approaches:
+1. top-down(entity relationship model)
+2. bottom-up (normalization)
+
+database design involves a model of the data in an enterprise
+
+conceptual db design:
+process of constructing a model of the information used in an enterprise that is independent
+of implemention details.
+
+
+entity: physical object or concept in your business env (impt data that you want to store)
+attributes: distinct properties of an entity or a relationship
+relationship: an association between entities
+
+
+steps:
+1. identify imp data called entities
+2. identify relationships (meaningful assoiciations) between the enities.
+3. determine the attributes(properties) of the entites and relationships.
+
+entity type:
+group of objections with the same properties, identified by enterprise as having 
+an independent existence.
+
+entity occurence: 
+uniquely indentifiable object of an entity type
+
+entity types can have physical/conceptual existence.
+
+relationship type: 
+a set of meaningful associations
+
+degree of relationship type:
+binary: degree 2
+ternary: degree 3
+quarternary: degree 4
+

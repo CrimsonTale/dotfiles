@@ -1,7 +1,3 @@
----------------------------
--- Default awesome theme --
----------------------------
-
 local theme_assets = require("beautiful.theme_assets")
 local xresources = require("beautiful.xresources")
 local rnotification = require("ruled.notification")
@@ -15,12 +11,12 @@ local theme = {}
 theme.font          = "agave Nerd Font 14"
 
 -- colors
-theme.bg_normal     = "#1d2021"
+theme.bg_normal     = "#120f1c"
 theme.bg_focus      = "#3c3836"
-theme.fg_normal     = "#ebdbb2"
+theme.fg_normal     = "#dfac9f"
 theme.fg_urgent     = "#cc241d"
-theme.border_normal = "#928374"
-theme.border_focus  = "#fabd2f"
+theme.border_normal = "#50466D"
+theme.border_focus  = "#A05761"
 theme.bg_urgent     = theme.bg_normal
 theme.bg_minimize   = theme.bg_focus
 theme.bg_systray    = theme.bg_normal
