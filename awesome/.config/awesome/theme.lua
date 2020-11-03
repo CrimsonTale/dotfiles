@@ -11,17 +11,17 @@ local theme = {}
 theme.font          = "agave Nerd Font 14"
 
 -- colors
-theme.bg_normal     = "#120f1c"
-theme.bg_focus      = "#3c3836"
-theme.fg_normal     = "#dfac9f"
-theme.fg_urgent     = "#cc241d"
-theme.border_normal = "#000000"
-theme.border_focus  = "#120f1c"
+theme.bg_normal     = "#120f0f"
+theme.bg_focus      = "#DD3940"
+theme.fg_normal     = "#DD3940"
+theme.fg_urgent     = "#000000"
+theme.border_normal = "#120f0f"
+theme.border_focus  = "#DD3940"
 theme.bg_urgent     = theme.bg_normal
 theme.bg_minimize   = theme.bg_focus
 theme.bg_systray    = theme.bg_normal
 theme.hotkeys_bg    = theme.bg_normal
-theme.fg_focus      = theme.fg_normal
+theme.fg_focus      = theme.fg_urgent
 theme.fg_minimize   = theme.fg_normal
 theme.hotkeys_fg    = theme.fg_normal
 theme.hotkeys_border_color = theme.border_focus
@@ -124,7 +124,7 @@ theme.awesome_icon = theme_assets.awesome_icon(
 
 -- Define the icon theme for application icons. If not set then the icons
 -- from /usr/share/icons and /usr/share/icons/hicolor will be used.
-theme.icon_theme = nil
+theme.icon_theme = none; 
 
 -- Set different colors for urgent notifications.
 rnotification.connect_signal('request::rules', function()
