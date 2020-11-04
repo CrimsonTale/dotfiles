@@ -8,9 +8,8 @@ source $OMF_PATH/init.fish
 
 ### Aliases ###
 
-# Yay
+# Yay (yay defaults to yay -Syu)
 alias yain="yay -S"
-alias yaupg="yay -Syu"
 
 # Vim
 alias vim="nvim"
@@ -25,11 +24,13 @@ alias cdA="cd ~/.config/awesome"
 alias yeet="rm -rf"
 alias copy="cp -r"
 
-# Dark mode
-# wal --theme monochrome -q 
+# List files
+alias ls='exa -al --color=always --group-directories-first' # my preferred listing
+alias la='exa -a --color=always --group-directories-first'  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first'  # long format
+alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias l.='exa -a | egrep "^\."'
 
-# Light mode
-# wal --theme monochrome-light -l -q 
 
-# wal -i ~/Wallpapers/white_tree_minimalist.jpg
+# source pywal
 wal -R -q 

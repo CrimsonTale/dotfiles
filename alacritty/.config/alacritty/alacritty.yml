@@ -39,18 +39,20 @@ window:
 font:
   normal:
     # family: agave Nerd Font
-    family: agave Nerd Font
+    # family: FiraCode Nerd Font 
+    family: Ubuntu Mono derivative Powerline 
     style: Regular
 
   # Bold font face
   #bold:
-    family: agave Nerd Font
-    style: Bold
+  #  family: agave Nerd Font
+  #  family: Ubuntu Mono derivative Powerline 
+  # style: Bold
 
   # Italic font face
   #italic:
-    family: agave Nerd Font
-    style: Italic
+  #  family: agave Nerd Font
+  #  style: Italic
 
   # Point size
-  size: 14.0
+  size: 16.0
