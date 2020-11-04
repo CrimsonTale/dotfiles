@@ -158,3 +158,20 @@ Data Types
   datetime
   timestamp
   decimal
+
+
+Weak entities depend on other entities.
+A characteristic is that its occurrence cannot be uniquely identified using only
+the attributes associated with enity type.
+
+Structural Constraints
+Main constraint is multiplicity
+  Multiplicity is the number of possible occurrences of an enity type that 
+  may relate to a single occurrence of an associated entity type through a 
+  particular relationship.
+  
+Complexity of ER Modelling is not in the represention but lies in:
+  1. Understanding the business
+  2. Recognition of the entities that play a role in that business
+  3. Identifying relevant attributes that describe the entities
+  4. Relationships that connect the entities
