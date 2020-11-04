@@ -34,4 +34,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/limelight.vim'
   " A vim colorscheme for use with pywal
   Plug 'dylanaraps/wal.vim'
+  " Dark powered asynchronous completion framework for neovim/Vim8
+  " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  " Perform all your vim insert mode completions with Tab
+  " Plug 'ervandew/supertab'
 call plug#end()

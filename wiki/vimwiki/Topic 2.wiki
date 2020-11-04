@@ -132,3 +132,29 @@ degree of relationship type:
 binary: degree 2
 ternary: degree 3
 quarternary: degree 4
+
+Primary Keys
+  Definition:
+    A primary key is an attribute (or field) that uniquely identifies every record
+    in a certain table.
+    1 primary key per entity
+  Rules:
+    1. Unique
+    2. Never changing
+    3. Never null
+
+Foreign Keys
+  Definition:
+    A foreign key is the same as a primary key. It is located in another table though.
+
+Bridge Table
+  Used for many-to-many relationships
+  Eg. Order table is a bridge between Customer and Product tables
+
+Data Types
+  int
+  varchar()
+  char()
+  datetime
+  timestamp
+  decimal

@@ -1,0 +1,3 @@
+<C-y> select 
+<C-n> select next
+<C-p> select previous

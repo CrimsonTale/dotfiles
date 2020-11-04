@@ -40,7 +40,7 @@ font:
   normal:
     # family: agave Nerd Font
     # family: FiraCode Nerd Font 
-    family: Ubuntu Mono derivative Powerline 
+    family: UbuntuMono Nerd Font
     style: Regular
 
   # Bold font face
