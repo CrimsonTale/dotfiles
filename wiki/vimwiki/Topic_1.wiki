@@ -1,0 +1,101 @@
+Information Systems
+  1. input
+  2. process
+  3. output
+  4. feedback
+
+  Eg. ATM
+        input: pin/card
+        process: authentication/type of transaction
+        output: cash/receipt 
+        feedback: wrong pin/incorrect amount/amount exceeding -> back to input
+  
+
+Existing systems vs New systems
+  Hard copy vs LMS
+  Manual vs Safe entry
+  Hanis cafe vs App to order
+  Customs Officer vs Customs Officer/Biometrics/Facial recognition
+  
+Flowchart
+  Tool: Draw.io
+  Oval: Start + End
+
+What is data?
+  Data is a collection of non-random raw facts recorded by observation or research.
+  Eg. 65,86,52
+  
+What is information?
+  Processed data -> Make decisions
+  Eg. 
+  
+DIKW
+  Decision
+  Information
+  Knowledge
+  Wisdom
+  
+Transformation Process
+  A number of different transformation can be used to transform data
+  into information.
+  1. Classification
+  2. Rearranging/sorting
+  3. Aggregating
+  4. Performing calculation
+  5. Selection
+
+Value of information
+  Tangible
+    Financial value
+  Intangible
+    Experience
+    
+All business org operate in a business environment.
+
+Levels of Managerial Decision Making
+  1. Strategic (long term eg.relocation)
+  2. Tactical (medium term eg.performance/budgets/new dept)
+  3. Operational (short term eg. day-to-day stuff)
+
+The Decision Making Process
+  1. Intelligence
+  2. Design
+  3. Choice
+  4. Implementation
+  5. Evaluation
+  
+  Important points:
+    1. Important t recognize that infor plays a critical part in arriving
+       at an effective and successful decision
+    2. The information required to support the decision-making process is
+       determined by the decision itself. Decision needs determine information needs.
+
+Decision Making Theory
+
+Knowledge Management
+
+
+What is the difference between Data and Information?
+  Data is a collection of non-random raw facts recorder by observation or research.
+  Information is processed data that helps make decisions.
+
+How is information transformed from data?
+  Classicfication, rearranging/sorting, aggregating, performing calculation,selection
+
+Why modern orgs rely heavily on information and communication technologies?
+  Orgs are able to make informed decisions.
+
+What are the three levels of information?
+  Strategic, tactical,operational
+
+How business IS can assist at different stages of the decision making process?
+  Business IS can help to arrive at an effective and successful decision. Moreover,
+  decision needs help to determine information needs.
+
+What is decision making theory?
+  Decision making abides by business rules. These rules are the event that triggers
+  the rule, the testable condition and the necessary further action to be taken.
+
+What is knowledege management?
+  KM is a range of activities that that ensure a business uses its IT resources
+  as effectively as possible.

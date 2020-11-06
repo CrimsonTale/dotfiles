@@ -230,8 +230,8 @@ awful.keyboard.append_global_keybindings({
               {description = "show the menubar", group = "launcher"}),
     -- Browser
     awful.key({ modkey }, "w", function ()
-    awful.util.spawn("chromium") end,
-              {description = "Launch Chromium", group = "launcher"}),
+    awful.util.spawn("microsoft-edge-dev") end,
+              {description = "Launch Microsoft Edge", group = "launcher"}),
 })
 
 

@@ -11,12 +11,12 @@ local theme = {}
 theme.font          = "agave Nerd Font 14"
 
 -- colors
-theme.bg_normal     = "#120f0f"
-theme.bg_focus      = "#DD3940"
-theme.fg_normal     = "#DD3940"
-theme.fg_urgent     = "#000000"
-theme.border_normal = "#120f0f"
-theme.border_focus  = "#DD3940"
+theme.bg_normal     = "#031B33"
+theme.bg_focus      = "#6994cc"
+theme.fg_normal     = "#5986B7"
+theme.fg_urgent     = "#031B33"
+theme.border_normal = "#031B33"
+theme.border_focus  = "#b6c8e2"
 theme.bg_urgent     = theme.bg_normal
 theme.bg_minimize   = theme.bg_focus
 theme.bg_systray    = theme.bg_normal
