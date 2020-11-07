@@ -57,4 +57,6 @@ xset r rate 300 50 &
 
 /home/nesh/.screenlayout/dualmonitore.sh
 
+razer-cli -e reactive -a &
+
 exec awesome
