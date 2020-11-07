@@ -43,5 +43,3 @@ nnoremap <C-l> <C-w>l
 nnoremap <Leader>o o<Esc>^Da
 nnoremap <Leader>O O<Esc>^Da
 
-" Write file with sudo permissions
-nnoremap <Leader>sudo :w !sudo tee % <CR><CR>

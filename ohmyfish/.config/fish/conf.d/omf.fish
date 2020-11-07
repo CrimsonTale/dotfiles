@@ -15,10 +15,10 @@ alias yain="yay -S"
 alias vim="nvim"
 
 # Directory navigation
-alias cdF="cd ~/.config/fish"
-alias cdT="cd ~/.config/alacritty"
-alias cdV="cd ~/.config/nvim"
-alias cdA="cd ~/.config/awesome"
+alias cdf="cd ~/.config/fish"
+alias cdt="cd ~/.config/alacritty"
+alias cdv="cd ~/.config/nvim"
+alias cda="cd ~/.config/awesome"
 
 # Common
 alias yeet="rm -rf"

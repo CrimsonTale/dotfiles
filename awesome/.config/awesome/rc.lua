@@ -568,4 +568,5 @@ end)
 
 -- awful.spawn.with_shell("nitrogen --restore")
 awful.spawn.with_shell("wal -R")
+awful.spawn.with_shell("picom --experimental-backends -b")
 

@@ -57,9 +57,4 @@ xset r rate 300 50 &
 
 /home/nesh/.screenlayout/dualmonitore.sh
 
-sleep 1
-
-wal --theme monochrome &
-picom --experimental-backends -b &
-
 exec awesome

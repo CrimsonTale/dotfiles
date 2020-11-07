@@ -1,0 +1,68 @@
+=== Business Information Systems ===
+
+What is a system?
+  A system can be defined as a collection of interrelated components that
+  work together towards a collective goal.
+  The function of a system is to receive inputs and transform them into outputs.
+
+What are the 5 components of a system and their roles?
+  1. Input
+      Raw materials for a process that will produce a particular output.
+  2. Process
+      Inputs are turned into outputs by a transformation process.
+  3. Output
+      Product created by a system
+  4. Feedback mechanism
+      Provides information on the performance of the system which can be used to
+      adjust its behavior.
+  5. Control mechanism
+
+
+Role of Information System?
+  To support managers in making decisions that will help the organization to
+  function properly and achieve its objectives. Control is being exercised correctly if
+  the organization is moving towards its objectives as efficiently as possible.
+
+Open-loop control system
+  Attempt to reach the system objective, but no action is taken to modify the process
+  or its input to achieve the targets once the process begun.
+
+Closed-loop control system
+  1. Feedback control
+      Responds to changes in the system or its environment after they have taken place
+  2. Feedforward control
+      Predict likely changes so that any delays before taking action are minimized. 
+
+Types of Systems
+  1. Deterministic and Probabilistic Systems
+  2. Adaptive Systems
+  3. Hard and Soft Systems
+
+
+1. A system is a collection of interrelated components that work together towards
+   a collective goal. It receives inputs and transforms them into outputs.
+2. Input, Process, Output, Feedback, and Control. 
+3. Information systems help managaers make decisions that help the organization to
+   to funciton effectively and achieve its goals.
+4. Open-loop system attempts to reach the system objective but no action is taken
+   to change the process/input to achieve the objective when process starts. Closed-loop
+   provides feedback/feedforward control.
+5. Deterministic and probabilistic, adaptive, hard and soft. 
+6. Business IS is used to support functional areas of a business.
+7. IT refers to the technology while IS refers to how IT is used to contribute to
+   the business.
+8. BIS have become widespread as most organizations today make use of IT.
+9. BIS can be used in many ways. Some examples are executive IS, decision support
+   and office automation systems.
+10. Operation IS involves improving communication and productivity.
+    Management IS involves providing feedback to complement managerial decision making.
+11. Cost leadership is provide G&S at minimal cost.
+12. Differentiation is differentiating own product from competitors.
+13. Innovation is discovering new ways to boost product or organization.
+14. Focus is catering to a niche market.
+15. The 5 competitive forces are: threat of new entrants, bargaining power of
+    suppliers, bargaining power of consumers, threat of substitutes and rivalry
+    among competitors.
+16. The 6 ways to get a strategic advantage are improving operational efficency,
+    raising barriers to entry, locking in customers and suppliers, promoting business
+    innovation, increasing switching costs and lastly via leverage.
