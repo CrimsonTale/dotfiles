@@ -232,6 +232,10 @@ awful.keyboard.append_global_keybindings({
     awful.key({ modkey }, "w", function ()
     awful.util.spawn("microsoft-edge-dev") end,
               {description = "Launch Microsoft Edge", group = "launcher"}),
+    -- Rofi
+    awful.key({ modkey }, "d", function ()
+    awful.util.spawn("rofi -show drun -sidebar-mode -font 'agave Nerd Font 14'") end,
+              {description = "Launch Rofi", group = "launcher"}),
 })
 
 
