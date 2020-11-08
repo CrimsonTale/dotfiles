@@ -38,9 +38,9 @@ window:
 # Font configuration
 font:
   normal:
-    family: agave Nerd Font
-    # family: FiraCode Nerd Font 
-    #family: UbuntuMono Nerd Font
+    #family: agave Nerd Font
+    family: JetBrains Mono Nerd Font 
+    #family: Fira Mono for Powerline 
     style: Regular
 
   # Bold font face
@@ -55,4 +55,4 @@ font:
   #  style: Italic
 
   # Point size
-  size: 16.0
+  size: 14.0

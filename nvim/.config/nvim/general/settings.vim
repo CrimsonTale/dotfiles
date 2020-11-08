@@ -3,7 +3,7 @@ let g:mapleader = "\<Space>"
 
 syntax enable                           " Enables syntax highlighing
 
-"set termguicolors                       " True color support
+set termguicolors                       " True color support
 
 set hidden                              " Required to keep multiple buffers open multiple buffers
 
@@ -71,10 +71,16 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 
 "set autochdir                           " Your working directory will always be the same as your working directory
 
+set background=dark
 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 " You can't stop me
 cmap w!! w !sudo tee %
 
-colorscheme wal
+" colorscheme wal
+
+let g:gruvbox_contrast_dark = 'hard'
+colorscheme gruvbox
+
+
