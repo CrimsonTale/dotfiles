@@ -33,65 +33,14 @@ naughty.connect_signal("request::display_error", function(message, startup)
 end)
 -- }}}
 
--- {{{ Variable definitions
--- Themes define colours, icons, font and wallpapers.
-beautiful.init("/home/nesh/.config/awesome/theme.lua")
+--  Variable definitions
+local variables = require("variables")
 
--- This is used later as the default terminal and editor to run.
-terminal = "alacritty"
-editor = os.getenv("EDITOR") or "nvim"
-editor_cmd = terminal .. " -e " .. editor
+-- Tag
+local tags = require("tag")
 
--- Default modkey.
--- Usually, Mod4 is the key with a logo between Control and Alt.
--- If you do not like this or do not have such a key,
--- I suggest you to remap Mod4 to another key using xmodmap or other tools.
--- However, you can use another modifier like Mod1, but it may interact with others.
-modkey = "Mod1"
--- }}}
-
--- {{{ Menu
--- Create a launcher widget and a main menu
-myawesomemenu = {
-   { "hotkeys", function() hotkeys_popup.show_help(nil, awful.screen.focused()) end },
-   { "manual", terminal .. " -e man awesome" },
-   { "edit config", editor_cmd .. " " .. awesome.conffile },
-   { "restart", awesome.restart },
-   { "quit", function() awesome.quit() end },
-}
-
-mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
-                                    { "open terminal", terminal }
-                                  }
-                        })
-
-mylauncher = awful.widget.launcher({ image = beautiful.awesome_icon,
-                                     menu = mymainmenu })
-
--- Menubar configuration
-menubar.utils.terminal = terminal -- Set the terminal for applications that require it
--- }}}
-
--- {{{ Tag
--- Table of layouts to cover with awful.layout.inc, order matters.
-tag.connect_signal("request::default_layouts", function()
-    awful.layout.append_default_layouts({
-        awful.layout.suit.tile,
-        awful.layout.suit.tile.bottom,
-        awful.layout.suit.tile.left,
-        awful.layout.suit.floating,
-        -- awful.layout.suit.tile.top,
-        -- awful.layout.suit.fair,
-        -- awful.layout.suit.fair.horizontal,
-        -- awful.layout.suit.spiral,
-        -- awful.layout.suit.spiral.dwindle,
-        -- awful.layout.suit.max,
-        -- awful.layout.suit.max.fullscreen,
-        -- awful.layout.suit.magnifier,
-        -- awful.layout.suit.corner.nw,
-    })
-end)
--- }}}
+-- Menu
+local menu = require("menu")
 
 -- Wibar
 local wibar = require("wibar")
@@ -228,5 +177,5 @@ end)
 awful.spawn.with_shell("wal -R")
 awful.spawn.with_shell("razer-cli -e reactive -a")
 awful.spawn.with_shell("picom --experimental-backends -b")
-awful.spawn.with_shell("redshift -l 1.3521:103.8198")
+-- awful.spawn.with_shell("redshift -l 1.3521:103.8198")
 
