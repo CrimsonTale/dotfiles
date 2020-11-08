@@ -41,4 +41,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Async Language Server Protocol plugin for vim8 and neovim.
   Plug 'prabirshrestha/vim-lsp'
   Plug 'mattn/vim-lsp-settings'
+  " Ranger plugin
+  Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
+  " FZF wrapper
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
+  Plug 'airblade/vim-rooter'
 call plug#end()
