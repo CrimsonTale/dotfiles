@@ -38,4 +38,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   " Perform all your vim insert mode completions with Tab
   " Plug 'ervandew/supertab'
+  " Async Language Server Protocol plugin for vim8 and neovim.
+  Plug 'prabirshrestha/vim-lsp'
+  Plug 'mattn/vim-lsp-settings'
 call plug#end()
