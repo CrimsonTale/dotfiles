@@ -49,4 +49,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'airblade/vim-rooter'
   " Gruvbox
   Plug 'morhetz/gruvbox'
+  " Colorizer
+  Plug 'norcalli/nvim-colorizer.lua'
+  " The fancy start screen for Vim
+  Plug 'mhinz/vim-startify'
 call plug#end()
