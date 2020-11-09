@@ -38,8 +38,8 @@ window:
 # Font configuration
 font:
   normal:
-    family: agave Nerd Font
-    #family: JetBrains Mono Nerd Font 
+    #family: agave Nerd Font
+    family: JetBrains Mono Nerd Font 
     style: Regular
 
   # Bold font face

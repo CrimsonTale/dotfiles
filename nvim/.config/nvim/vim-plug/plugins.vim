@@ -53,4 +53,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'norcalli/nvim-colorizer.lua'
   " The fancy start screen for Vim
   Plug 'mhinz/vim-startify'
+  " Base16
+  Plug 'chriskempson/base16-vim'
 call plug#end()

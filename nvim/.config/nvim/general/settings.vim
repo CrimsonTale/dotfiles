@@ -80,7 +80,7 @@ cmap w!! w !sudo tee %
 
 " colorscheme wal
 
-let g:gruvbox_contrast_dark = 'hard'
-colorscheme gruvbox
+"let g:gruvbox_contrast_dark = 'hard'
+"colorscheme gruvbox
 
-
+colorscheme base16-tomorrow-night

@@ -1,0 +1,35 @@
+Why relational data model?
+
+The relational model is based on the mathematical concept of a relation,
+which is physically represented as a table.
+
+Types of keys
+  Super key
+    attribute that uniquely identifies a row in a table
+  Candidate key
+    super key with minimal set of attributes; possible primary key
+  Primary key
+    attribute taht uniquely identifies each row in a table
+  Alternate key
+    the candidate keys that are not selected to be the primary key
+  Composite key
+    a key that has more than one attribute
+  Foreign key
+    an attribute (or set of attributes)
+    
+    
+    
+Entity Integrity rule
+  Primary key in base relations must not contain any nulls 
+  (same applies for composite keys)
+
+Referential Integrity rule
+  foreign key values must match a primary key value of some tuple in the
+  in the home relation or be wholly null.
+
+General constraints
+  Additional rules specified by the users or database administrators that
+  define or constrain some aspect of the enterprise.
+
+
+
