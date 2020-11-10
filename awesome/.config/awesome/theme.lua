@@ -28,8 +28,8 @@ theme.fg_focus      = theme.bg_normal
 theme.fg_urgent     = theme.bg_normal
 theme.fg_minimize   = theme.bg_normal
 
-theme.useless_gap   = dpi(3)
-theme.border_width  = dpi(3)
+theme.useless_gap   = dpi(5)
+theme.border_width  = dpi(5)
 theme.border_color_normal = xrdb.color0
 theme.border_color_active = theme.bg_focus
 theme.border_color_marked = xrdb.color10

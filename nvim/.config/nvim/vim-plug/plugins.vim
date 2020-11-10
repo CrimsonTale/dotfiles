@@ -55,4 +55,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-startify'
   " Base16
   Plug 'chriskempson/base16-vim'
+  " Snippets files for various programming languages
+  Plug 'honza/vim-snippets'
+  Plug 'mhinz/vim-signify'
+  " Git integration
+  Plug 'tpope/vim-fugitive'
+  Plug 'tpope/vim-rhubarb'
+  Plug 'junegunn/gv.vim'
 call plug#end()

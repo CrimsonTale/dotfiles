@@ -1,11 +1,31 @@
 Why relational data model?
+  The relational model is based on the mathematical concept of a relation,
+  which is physically represented as a table.
 
-The relational model is based on the mathematical concept of a relation,
-which is physically represented as a table.
-
+In a relational data model
+  each row is distinct
+  order of rows and columns have no significance
+  NULL = "undefined" or "unknown"
+  
+  Relation
+    a table with columns and rows(table/file)
+  Attribute
+    a named column of a relation(column/field)
+  Domain
+    a set of allowable values for one or more attributes
+  Tuple
+    a row of a relation
+  Degree
+    number of attributes it contains
+  Cardinality
+    number of tuples it contains
+  Relational database
+    a collection of nomalised(appropriately structured) relations
+    with distinct relation names
+  
 Types of keys
   Super key
-    attribute that uniquely identifies a row in a table
+    attribute/set of attributes that uniquely identifies a row in a table
   Candidate key
     super key with minimal set of attributes; possible primary key
   Primary key
