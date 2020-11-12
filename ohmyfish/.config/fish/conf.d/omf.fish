@@ -31,6 +31,7 @@ alias ll='exa -l --color=always --group-directories-first'  # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 alias l.='exa -a | egrep "^\."'
 
+alias night='redshift -l 1.3521:103.8198'
 
 # source pywal
 wal -R -q 

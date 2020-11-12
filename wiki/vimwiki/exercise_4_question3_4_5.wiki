@@ -1,0 +1,6 @@
+clientNo -> cName
+propertyNo -> pAddress
+clientNo,propertyNo -> rentStart,rentFinish,rent
+ownerNo -> oName
+
+

@@ -1,0 +1,7 @@
+Computer System
+  1.  Consists of a number of interrelated components that work
+      together with the aim of converting data into information.
+  2.  Process iss carried out electronically, usually with little
+      little or no intervention from a human user.
+
+

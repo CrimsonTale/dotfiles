@@ -37,7 +37,7 @@ let g:airline_symbols.linenr = ''
 
 
 " Switch to your current theme
-let g:airline_theme = 'base16_tomorrow_night'
+let g:airline_theme = 'base16_nord'
 
 " Always show tabs
 set showtabline=2

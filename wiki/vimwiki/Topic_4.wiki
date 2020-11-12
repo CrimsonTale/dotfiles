@@ -1,0 +1,54 @@
+Normalization 
+  is a technique for producing a set of tables with
+  desirable properties, given the data requirements of an
+  enterprise.
+
+  is a formal method that can be used to identify
+  relations based on their keys and the functional dependencies
+  among their attributes. 
+
+Objectives
+  to increase the integrity of the database design
+  to maximize flexibility of data storage
+  
+Characteristics
+  1. the minimal number of attributes necessary
+  2. attributes that are logically related (described as functional dependency)
+     in the same table
+  3. minimal data redundancy
+
+Why is storing redundant data bad? 
+  Redundant data can cause update anomalies
+  problems :
+  1. Insertion anomalies
+      a situation in which you cannot insert new data into
+      a database because of an unrelated dependency. 
+  2. Deletion anomalies
+  3. Modification anomalies
+
+Topic : Summary
+  • Normalization is bottom-up approach to database design. It is a
+  technique for producing a set of tables, given the data requirements of an
+  enterprise.
+  • Normalization is a formal method that can be used to identify relations
+  based on their keys and the functional dependencies among their
+  attributes.
+  • Normalization is the process of organizing data in order to reduce data
+  redundancy by dividing a database into two or more tables and then
+  defining table relationships. 
+  • Relations with data redundancy suffer from update anomalies, which can
+  be classified as insertion, deletion and modification anomalies.
+  • Normalization consists of a series of rules that must be applied in steps to
+  reach a “higher” level of normalization. These levels are called normal
+  forms. The IT industry considers normalization to the 3NF an acceptable
+  level to remove redundancy.
+  • Unnormalized Form (UNF) is a table that contains one or more repeating
+  groups.
+  • First Normal Form (1NF) is a relation in which the intersection of each
+  row and column (i.e. each “cell”) contains one and only one value.
+  • Second Normal Form (2NF) is a relation that is in 1st normal form and
+  every non-primary-key attribute is fully functionally dependent on the
+  primary key (i.e. there are no partial dependencies in 2NF tables).
+  • Third Normal Form (3NF) is a relation that is in 1st and 2nd normal form in
+  which no non-primary-key attribute is transitively dependent on the
+  primary key. 

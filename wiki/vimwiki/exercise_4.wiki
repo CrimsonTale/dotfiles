@@ -1,0 +1,23 @@
+(i) it wastes storage space 
+(ii)functional dependencies
+
+CourseCode -> CourseDesc,StartDate,Duration,Venue, TrainerID
+StudID -> Sname
+TrainerID -> Trainer
+
+CourseCode,StudID -> Rating
+
+
+Enrichment((CourseCode,StudID ), CourseDesc, StartDate, 
+        Duration, Venue, Sname, rating, trainerID, trainer)
+
+UNF -> 1NF (no repeating group). Primary key is CourseCode,
+
+1NF -> 2NF  composite PK between CourseCode,StudID
+            CourseCode -> CourseDesc,StartDate,Duration,Venue
+            StudID -> Sname
+2NF -> 3NF  
+
+
+
+EXERCISE 4-1

@@ -35,7 +35,8 @@ Types of keys
   Composite key
     a key that has more than one attribute
   Foreign key
-    an attribute (or set of attributes)
+    an attribute (or set of attributes) within one relation that 
+    matches primary key of another relation
     
     
     

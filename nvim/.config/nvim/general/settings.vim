@@ -83,4 +83,4 @@ cmap w!! w !sudo tee %
 "let g:gruvbox_contrast_dark = 'hard'
 "colorscheme gruvbox
 let base16colorspace=256 
-colorscheme base16-tomorrow-night
+colorscheme base16-nord
