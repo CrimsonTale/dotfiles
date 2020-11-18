@@ -21,3 +21,4 @@ UNF -> 1NF (no repeating group). Primary key is CourseCode,
 
 
 EXERCISE 4-1
+

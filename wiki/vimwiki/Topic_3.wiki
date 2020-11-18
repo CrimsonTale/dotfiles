@@ -4,4 +4,85 @@ Computer System
   2.  Process iss carried out electronically, usually with little
       little or no intervention from a human user.
 
+Three Basic Categories of Computer
+  1.  Mainframe
+        Powerful computers used for large-scale data processing.
+        A moderna personal computer could be considered many times
+        more powerful than one of the very earliest mainframe systems.
+  2.  Minicomputer
+        Combines some of the characteristics of the mainframe
+        computer and microcomputer. Today they are often referred to
+        as servers by computers.
 
+
+Hey Mr Kumar, for the assignment would it be okay to 
+talk about Nvidia Deep Learning Super Sampling as a
+new system. It uses AI rendering to render at a lower
+resolution and artifically upscale to a higher resolution,
+resulting in huge performance improvements especially in
+real-time rendering applications.
+
+Definition: DLSS is a deep learning neural network that uses the 
+            power of the NVIDIA RTX TensorCores to boost frame rates
+            and generate sharp frames that approach or exceed native
+            rendering.
+
+So I would like to bring this relatively new technology
+which is currently a work-in-progress for games and game development
+to the video and photo editing industy like Adobe Premiere, after-effects
+and photoshop. Since this works with RTX GPUs that support ray-tracing,
+video lighting and photo lighting rendering can also be hugely improved
+and render times can be sped up by a huge amount.
+
+
+
+1.  The main components are as follows:
+    1.  input
+          used to enter data, information or instructions
+          into a computer-based information system
+    2.  cpu
+          controls all of the computer’s main functions and enables
+          users to execute programs or process data
+    3.  memory
+          temporary means of storing data awaiting processing, instructions 
+          used to process data or control the computer system, and data 
+          or information that has been processed
+    4.  storage
+          permanent means of storing data and programs until they are required
+    5.  output
+          translate info-processing-output into human readable form
+
+2.  Basic Categories are:
+    1.  Mainframe
+          super computers that process large-scale data
+    2.  Minicomputer
+          known as servers, which can be used to manage networks
+          host a database
+    3.  Microcomputer
+          client machine that provides powerful computing at low cost
+
+3.  Types of microcomputers:
+    1.  Desktop computers
+    2.  Portable computers
+
+4.  Types of input devices include keyboard, mouse , touch screen,
+    capture cards and sound cards.
+
+5.  Types of Output devices include monitor, speaker and printer
+
+6.  CPU fetches instructions from software loaded into memory, decodes
+    then executes those instructions. The arithmetic logic unit of the CPU
+    does mathematical operations
+7.  Basic Categories of System Software:
+    1.  Operating Systems
+    2.  Development Programs
+    3.  Utility Programs
+
+8.  Operating system monitors and sends instructions to manage
+    computer resources
+
+9.  Development program allows user to use programming language
+    to make their own software
+
+10. Utility programs provide tools to support operation and
+    management of coputer. Examples are task manager and windows defender.
